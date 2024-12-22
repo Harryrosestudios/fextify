@@ -114,7 +114,7 @@ themeInput.keydown((e) => {
 $("body").keydown(async (e) => {
   const ctrlKey = isMac ? e.metaKey : e.ctrlKey;
 
-  if (e.key === "p" && ctrlKey) {
+  if (e.key === "Tab") {
     e.preventDefault();
 
     animateDiv(undefined, popup); // handle command pallet
